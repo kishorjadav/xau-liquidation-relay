@@ -49,6 +49,8 @@ async function fetchLatestXauLiquidation() {
   };
 }
 
+
+
 app.get("/api/xau-liquidation", async (req, res) => {
   try {
     const data = await fetchLatestXauLiquidation();
